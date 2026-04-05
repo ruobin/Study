@@ -51,14 +51,14 @@ public class Main {
         }
     }
 
-    static void main() {
-        IO.println("Heap Sort Demonstration");
+    public static void main(String[] args) {
+        System.out.println("Heap Sort Demonstration");
 
         int[] arr = {12, 11, 13, 5, 6, 7};
-        IO.println("Original array: " + java.util.Arrays.toString(arr));
+        System.out.println("Original array: " + java.util.Arrays.toString(arr));
 
         heapSort(arr);
 
-        IO.println("Sorted array: " + java.util.Arrays.toString(arr));
+        System.out.println("Sorted array: " + java.util.Arrays.toString(arr));
     }
 }

@@ -37,17 +37,17 @@ public class MyStack {
         return result;
     }
 
-    static void main() {
-        IO.println("My Stack Demonstration");
+    public static void main(String[] args) {
+        System.out.println("My Stack Demonstration");
 
         MyStack stack = new MyStack(10);
         stack.push(1);
         stack.push(2);
         stack.push(3);
-        IO.println("Original array: " + java.util.Arrays.toString(stack.getArr().toArray()));
+        System.out.println("Original array: " + java.util.Arrays.toString(stack.getArr().toArray()));
 
         stack.pop();
         stack.push(4);
-        IO.println("Sorted array: " + java.util.Arrays.toString(stack.getArr().toArray()));
+        System.out.println("Sorted array: " + java.util.Arrays.toString(stack.getArr().toArray()));
     }
 }
